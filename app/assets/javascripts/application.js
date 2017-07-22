@@ -10,6 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
+//= require opal
+//= require clearwater
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
