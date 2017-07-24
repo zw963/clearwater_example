@@ -3,8 +3,8 @@ require 'clearwater'
 require 'ostruct'
 require 'rails-ujs'
 require 'turbolinks'
-# require_tree '.'              # Use this will cause browser log error, don't know why.
-require_tree './test'           # this worked
+require_tree '.'              # Use this will cause browser log error, don't know why.
+# require_tree './test'           # this worked
 
 class Layout
   include Clearwater::Component
